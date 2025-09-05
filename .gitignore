@@ -455,7 +455,12 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # Project specific
+appsettings.json
 appsettings.Development.json
 appsettings.Production.json
 **/wwwroot/lib/
 launchSettings.json
+
+# Claude Code
+.claude/settings.local.json
+**/.claude/settings.local.json
